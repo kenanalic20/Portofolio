@@ -1,0 +1,124 @@
+{
+  "experience": [
+    {
+      "id": "evocomedia-2024",
+      "role": "Full-stack Developer",
+      "company": "Evocomedia",
+      "year": "2024",
+      "bullets": [
+        "Built responsive web pages with modern HTML, Sass, and jQuery.",
+        "Converted designs into custom WordPress themes and templates.",
+        "Worked with WordPress plugins like WooCommerce, WPML and Advanced Custom Fields"
+      ]
+    },
+    {
+      "id": "fablab-2023",
+      "role": "Intern",
+      "company": "FabLab",
+      "year": "2023",
+      "bullets": [
+        "Delivered UI components and dashboards in HTML, CSS, and JavaScript.",
+        "Integrated Firebase authentication and access controls."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "Moodie - Mood Tracking App",
+      "name": "Moodie - Mood Tracking App",
+      "stack": "Angular · .NET",
+      "bullets": [
+        "Built an API-driven mood tracker with localization support.",
+        "Implemented secure auth and analytics-ready data models."
+      ]
+    },
+    {
+      "id": "milkmaster",
+      "name": "MilkMaster — Dairy Management",
+      "stack": "Flutter · Microservices",
+      "bullets": [
+        "Architected RabbitMQ-backed microservices for ordering flows.",
+        "Integrated Stripe payments and transactional email service."
+      ]
+    },
+    {
+      "id": ".Net-Project-Template",
+      "name": ".Net Project Template",
+      "stack": ".NET · Docker",
+      "bullets": [
+        "Reusable .NET project template with Docker support for rapid development.",
+        "File management system with secure file uploads and metadata storage.",
+        "Integrated Stripe payments and transactional email service."
+      ]
+    }
+  ],
+  "extraProjects": [
+    {
+      "id": "IgnisGuard",
+      "name": "IgnisGuard - Intelligent Fire Detection",
+      "stack": "Flutter · Firebase · IoT",
+      "bullets": [
+        "Real-time fire detection app using Flutter and Firebase.",
+        "Backend with machine learning model for improved detection accuracy and reduced false alarms.",
+        "Mobile app dashboard for monitoring fire status and receiving alerts.",
+        "Image capture and notification system for instant alerts to users.",
+        "Implemented ESP32-based IoT sensors for accurate fire monitoring."
+      ]
+    },
+     {
+      "id": "How Long Can You Pew Pew - Game",
+      "name": "How Long Can You Pew Pew - Game",
+      "stack": "Unity · C#",
+      "bullets": [
+        "Endless space shooter game built in Unity with C# scripting.",
+        "Implemented responsive UI and game mechanics.",
+        "Designed multiple enemy types and power-ups for engaging gameplay.",
+        "Core mechanics include player movement, shooting, and enemy spawning."
+      ]
+    },
+    {
+      "id": "Real-time Fan Control System",
+      "name": "Real-time Fan Control System",
+      "stack": "ESP32 · C++",
+      "bullets": [
+        "Designed a real-time fan control system using ESP32 and C++.",
+        "Implemented MQ-135 gas sensor for air quality monitoring.",
+        "Used interrupts for fan activation based on sensor data."
+      ]
+    }
+  ],
+  "skills": [
+    "C#",
+    "PHP",
+    ".NET",
+    "Angular",
+    "TypeScript",
+    "SQL",
+    "RabbitMQ",
+    "Docker",
+    "Flutter",
+    "WordPress",
+    "Firebase",
+    "Git"
+  ],
+  "education": [
+    {
+      "id": "fit-2026",
+      "school": "Faculty of Information Technologies (FIT)",
+      "degree": "BSc in Software Engineering",
+      "year": "2026"
+    },
+    {
+      "id": "kfc-angular-2025",
+      "school": "King Fahd Culture Center",
+      "degree": "Angular Course",
+      "year": "2025"
+    },
+    {
+      "id": "kfc-js-2023",
+      "school": "King Fahd Culture Center",
+      "degree": "JavaScript Course",
+      "year": "2023"
+    }
+  ]
+}

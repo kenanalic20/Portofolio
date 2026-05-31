@@ -1,3 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import 'tailwindcss';
+
+:root {
+	color-scheme: light;
+	--ink: #0e0f12;
+	--muted: #5b6470;
+	--paper: #f5f1eb;
+	--panel: #ffffff;
+	--accent: #0f3d4c;
+	--accent-soft: #e3edf0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: var(--ink);
+	background: radial-gradient(circle at top, #f2ece4 0%, #e9e3dc 42%, #ded7cf 100%);
+}
+
+button {
+	font: inherit;
+}
