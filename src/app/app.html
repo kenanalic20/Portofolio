@@ -1,19 +1,13 @@
 <main class="flex min-h-screen justify-center px-5 pb-[60px] pt-8 print:bg-white">
 	<section
-		class="w-full max-w-[1180px] rounded-[18px] border border-[rgba(14,15,18,0.08)] bg-[var(--panel)] px-10 pb-[46px] pt-9 shadow-[0_20px_50px_rgba(14,15,18,0.12)] print:rounded-none print:border-0 print:p-0 print:shadow-none"
-	>
+		class="w-full max-w-[1180px] rounded-[18px] border border-[rgba(14,15,18,0.08)] bg-[var(--panel)] px-10 pb-[46px] pt-9 shadow-[0_20px_50px_rgba(14,15,18,0.12)] print:rounded-none print:border-0 print:p-0 print:shadow-none">
 		<header
-			class="flex items-end justify-between gap-6 border-b border-[rgba(14,15,18,0.08)] pb-5 max-[980px]:flex-col max-[980px]:items-start"
-		>
+			class="flex items-end justify-between gap-6 border-b border-[rgba(14,15,18,0.08)] pb-5 max-[980px]:flex-col max-[980px]:items-start">
 			<div class="flex items-center gap-5 max-[980px]:flex-col max-[980px]:items-start">
 				<div
-					class="h-24 w-24 overflow-hidden rounded-[18px] border-2 border-[rgba(14,15,18,0.12)] bg-white shadow-[0_10px_24px_rgba(14,15,18,0.12)]"
-				>
-					<img
-						src="assets/profile.jpg"
-						alt="Portrait of Kenan Alic"
-						class="block h-full w-full object-cover"
-					/>
+					class="h-24 w-24 overflow-hidden rounded-[18px] border-2 border-[rgba(14,15,18,0.12)] bg-white shadow-[0_10px_24px_rgba(14,15,18,0.12)]">
+					<img src="assets/profile.jpg" alt="Portrait of Kenan Alic"
+						class="block h-full w-full object-cover" />
 				</div>
 				<div>
 					<p class="mb-1.5 text-[0.95rem] uppercase tracking-[0.22em] text-[color:var(--muted)]">
@@ -26,139 +20,136 @@
 			<div class="text-right max-[980px]:text-left print:hidden">
 				<button
 					class="cursor-pointer rounded-full border-0 bg-[var(--accent)] px-[18px] py-[10px] font-semibold tracking-[0.02em] text-white shadow-[0_10px_24px_rgba(15,61,76,0.25)] transition hover:-translate-y-0.5"
-					type="button"
-					(click)="downloadPdf()"
-				>
+					type="button" (click)="downloadPdf()">
 					Download PDF
 				</button>
-				<p class="mt-2 text-[0.85rem] text-[color:var(--muted)]">For PNG, use your browser's full-page screenshot.</p>
+				<p class="mt-2 text-[0.85rem] text-[color:var(--muted)]">For PNG, use your browser's full-page
+					screenshot.</p>
 			</div>
 		</header>
 
 		<div class="mt-7 grid grid-cols-[300px_1fr] gap-8 max-[980px]:grid-cols-1">
 			<aside class="flex flex-col gap-[22px] rounded-2xl bg-[var(--accent-soft)] p-[22px]">
-				<section>
-					<h2
-						class="mb-3.5 border-b border-[rgba(14,15,18,0.12)] pb-1.5 text-[1.1rem] uppercase tracking-[0.14em]"
-					>
-						Contact
-					</h2>
-					<ul class="m-0 grid list-none gap-2.5 p-0 text-[0.95rem]">
-						<li><span class="mb-0.5 block text-[0.8rem] uppercase tracking-[0.12em] text-[color:var(--muted)]">Address</span>Bugojno, Bosnia and Herzegovina</li>
-						<li><span class="mb-0.5 block text-[0.8rem] uppercase tracking-[0.12em] text-[color:var(--muted)]">Email</span>kenan.alic@edu.fit.ba</li>
-						<li><span class="mb-0.5 block text-[0.8rem] uppercase tracking-[0.12em] text-[color:var(--muted)]">Phone</span>+387 60 334 3703</li>
-						<li>
-							<span class="mb-0.5 block text-[0.8rem] uppercase tracking-[0.12em] text-[color:var(--muted)]">GitHub</span>
-							<a
-								href="https://github.com/kenanalic20"
-								class="font-medium text-[color:var(--accent)] hover:underline"
-								aria-label="GitHub profile"
-								rel="noreferrer"
-								target="_blank"
-							>
-								github.com/kenanalic20
-							</a>
-						</li>
-					</ul>
-				</section>
+				<div class="sticky top-5 flex flex-col gap-7">
+					<section>
+						<h2
+							class="mb-3.5 border-b border-[rgba(14,15,18,0.12)] pb-1.5 text-[1.1rem] uppercase tracking-[0.14em]">
+							Contact
+						</h2>
+						<ul class="m-0 grid list-none gap-2.5 p-0 text-[0.95rem]">
+							<li><span
+									class="mb-0.5 block text-[0.8rem] uppercase tracking-[0.12em] text-[color:var(--muted)]">Address</span>Bugojno,
+								Bosnia and Herzegovina</li>
+							<li><span
+									class="mb-0.5 block text-[0.8rem] uppercase tracking-[0.12em] text-[color:var(--muted)]">Email</span>kenan.alic@edu.fit.ba
+							</li>
+							<li><span
+									class="mb-0.5 block text-[0.8rem] uppercase tracking-[0.12em] text-[color:var(--muted)]">Phone</span>+387
+								60 334 3703</li>
+							<li>
+								<span
+									class="mb-0.5 block text-[0.8rem] uppercase tracking-[0.12em] text-[color:var(--muted)]">GitHub</span>
+								<a href="https://github.com/kenanalic20"
+									class="font-medium text-[color:var(--accent)] hover:underline"
+									aria-label="GitHub profile" rel="noreferrer" target="_blank">
+									github.com/kenanalic20
+								</a>
+							</li>
+						</ul>
+					</section>
 
-				<section>
-					<h2
-						class="mb-3.5 border-b border-[rgba(14,15,18,0.12)] pb-1.5 text-[1.1rem] uppercase tracking-[0.14em]"
-					>
-						Skills
-					</h2>
-					<div class="flex flex-wrap gap-2.5">
-						@for (skill of skills(); track skill) {
-							<span class="rounded-full border border-[rgba(14,15,18,0.1)] bg-white px-3 py-1.5 text-[0.85rem]">{{ skill }}</span>
-						}
-					</div>
-				</section>
+					<section>
+						<h2
+							class="mb-3.5 border-b border-[rgba(14,15,18,0.12)] pb-1.5 text-[1.1rem] uppercase tracking-[0.14em]">
+							Skills
+						</h2>
+						<div class="flex flex-wrap gap-2.5">
+							@for (skill of skills(); track skill) {
+							<span
+								class="rounded-full border border-[rgba(14,15,18,0.1)] bg-white px-3 py-1.5 text-[0.85rem]">{{
+								skill }}</span>
+							}
+						</div>
+					</section>
 
-				<section>
-					<h2
-						class="mb-3.5 border-b border-[rgba(14,15,18,0.12)] pb-1.5 text-[1.1rem] uppercase tracking-[0.14em]"
-					>
-						Languages
-					</h2>
-					<ul class="m-0 grid list-none gap-2.5 p-0 text-[0.95rem]">
-						<li><span class="mb-0.5 block text-[0.8rem] uppercase tracking-[0.12em] text-[color:var(--muted)]">English</span>Professional</li>
-						<li><span class="mb-0.5 block text-[0.8rem] uppercase tracking-[0.12em] text-[color:var(--muted)]">Bosnian</span>Native</li>
-					</ul>
-				</section>
+					<section>
+						<h2
+							class="mb-3.5 border-b border-[rgba(14,15,18,0.12)] pb-1.5 text-[1.1rem] uppercase tracking-[0.14em]">
+							Languages
+						</h2>
+						<ul class="m-0 grid list-none gap-2.5 p-0 text-[0.95rem]">
+							<li><span
+									class="mb-0.5 block text-[0.8rem] uppercase tracking-[0.12em] text-[color:var(--muted)]">English</span>Professional
+							</li>
+							<li><span
+									class="mb-0.5 block text-[0.8rem] uppercase tracking-[0.12em] text-[color:var(--muted)]">Bosnian</span>Native
+							</li>
+						</ul>
+					</section>
+				</div>
+
 			</aside>
 
 			<div class="flex flex-col gap-7">
 				<section>
 					<h2
-						class="mb-3.5 border-b border-[rgba(14,15,18,0.12)] pb-1.5 text-[1.1rem] uppercase tracking-[0.14em]"
-					>
+						class="mb-3.5 border-b border-[rgba(14,15,18,0.12)] pb-1.5 text-[1.1rem] uppercase tracking-[0.14em]">
 						Experience
 					</h2>
 					@for (item of experiences(); track item.id) {
-						<article
-							class="grid gap-2.5 border-b border-dashed border-[rgba(14,15,18,0.15)] pb-[18px] last:border-b-0 last:pb-0"
-						>
-							<div class="flex justify-between gap-3 font-semibold">
-								<h3>{{ item.role }} — {{ item.company }}</h3>
-								<span class="font-medium text-[color:var(--muted)]">{{ item.year }}</span>
-							</div>
-							<ul class="m-0 pl-[18px] text-[color:var(--muted)]">
-								@for (bullet of item.bullets; track bullet) {
-									<li>{{ bullet }}</li>
-								}
-							</ul>
-						</article>
+					<article
+						class="grid gap-2.5 border-b border-dashed border-[rgba(14,15,18,0.15)] pb-[18px] last:border-b-0 last:pb-0">
+						<div class="flex justify-between gap-3 font-semibold">
+							<h3>{{ item.role }} — {{ item.company }}</h3>
+							<span class="font-medium text-[color:var(--muted)]">{{ item.year }}</span>
+						</div>
+						<ul class="m-0 pl-[18px] text-[color:var(--muted)]">
+							@for (bullet of item.bullets; track bullet) {
+							<li>{{ bullet }}</li>
+							}
+						</ul>
+					</article>
 					}
 				</section>
 
 				<section>
 					<h2
-						class="mb-3.5 border-b border-[rgba(14,15,18,0.12)] pb-1.5 text-[1.1rem] uppercase tracking-[0.14em]"
-					>
+						class="mb-3.5 border-b border-[rgba(14,15,18,0.12)] pb-1.5 text-[1.1rem] uppercase tracking-[0.14em]">
 						Education
 					</h2>
 					@for (item of education(); track item.id) {
-						<article
-							class="grid gap-2.5 border-b border-dashed border-[rgba(14,15,18,0.15)] pb-[18px] last:border-b-0 last:pb-0"
-						>
-							<div class="flex justify-between gap-3 font-semibold">
-								<h3>{{ item.degree }} — {{ item.school }}</h3>
-								<span class="font-medium text-[color:var(--muted)]">{{ item.year }}</span>
-							</div>
-						</article>
+					<article
+						class="grid gap-2.5 border-b border-dashed border-[rgba(14,15,18,0.15)] pb-[18px] last:border-b-0 last:pb-0">
+						<div class="flex justify-between gap-3 font-semibold">
+							<h3>{{ item.degree }} — {{ item.school }}</h3>
+							<span class="font-medium text-[color:var(--muted)]">{{ item.year }}</span>
+						</div>
+					</article>
 					}
 				</section>
 
 				<section>
 					<h2
-						class="mb-3.5 border-b border-[rgba(14,15,18,0.12)] pb-1.5 text-[1.1rem] uppercase tracking-[0.14em]"
-					>
+						class="mb-3.5 border-b border-[rgba(14,15,18,0.12)] pb-1.5 text-[1.1rem] uppercase tracking-[0.14em]">
 						Projects
 					</h2>
 					@for (item of projects(); track item.id) {
-						<article
-							class="grid gap-2.5 border-b border-dashed border-[rgba(14,15,18,0.15)] pb-[18px] last:border-b-0 last:pb-0"
-						>
-							<div class="flex justify-between gap-3 font-semibold">
-								<h3>{{ item.name }}</h3>
-								<span class="font-medium text-[color:var(--muted)]">{{ item.stack }}</span>
-							</div>
-							<ul class="m-0 pl-[18px] text-[color:var(--muted)]">
-								@for (bullet of item.bullets; track bullet) {
-									<li>{{ bullet }}</li>
-								}
-							</ul>
-						</article>
+					<article
+						class="grid gap-2.5 border-b border-dashed border-[rgba(14,15,18,0.15)] pb-[18px] last:border-b-0 last:pb-0">
+						<div class="flex justify-between gap-3 font-semibold">
+							<h3>{{ item.name }}</h3>
+							<span class="font-medium text-[color:var(--muted)]">{{ item.stack }}</span>
+						</div>
+						<ul class="m-0 pl-[18px] text-[color:var(--muted)]">
+							@for (bullet of item.bullets; track bullet) {
+							<li>{{ bullet }}</li>
+							}
+						</ul>
+					</article>
 					}
 					<div class="mt-4 flex items-center gap-2 text-[0.95rem] print:hidden">
-						<input
-							id="show-more-projects"
-							type="checkbox"
-							class="h-4 w-4 accent-[var(--accent)]"
-							[checked]="showMoreProjects()"
-							(change)="showMoreProjects.set(!showMoreProjects())"
-						/>
+						<input id="show-more-projects" type="checkbox" class="h-4 w-4 accent-[var(--accent)]"
+							[checked]="showMoreProjects()" (change)="showMoreProjects.set(!showMoreProjects())" />
 						<label for="show-more-projects" class="select-none text-[color:var(--muted)]">
 							Show more projects
 						</label>
@@ -166,28 +157,26 @@
 				</section>
 
 				@if (showMoreProjects()) {
-					<section>
-						<h2
-							class="mb-3.5 border-b border-[rgba(14,15,18,0.12)] pb-1.5 text-[1.1rem] uppercase tracking-[0.14em]"
-						>
-							Extra Projects
-						</h2>
-						@for (item of extraProjects(); track item.id) {
-							<article
-								class="grid gap-2.5 border-b border-dashed border-[rgba(14,15,18,0.15)] pb-[18px] last:border-b-0 last:pb-0"
-							>
-								<div class="flex justify-between gap-3 font-semibold">
-									<h3>{{ item.name }}</h3>
-									<span class="font-medium text-[color:var(--muted)]">{{ item.stack }}</span>
-								</div>
-								<ul class="m-0 pl-[18px] text-[color:var(--muted)]">
-									@for (bullet of item.bullets; track bullet) {
-										<li>{{ bullet }}</li>
-									}
-								</ul>
-							</article>
-						}
-					</section>
+				<section>
+					<h2
+						class="mb-3.5 border-b border-[rgba(14,15,18,0.12)] pb-1.5 text-[1.1rem] uppercase tracking-[0.14em]">
+						Extra Projects
+					</h2>
+					@for (item of extraProjects(); track item.id) {
+					<article
+						class="grid gap-2.5 border-b border-dashed border-[rgba(14,15,18,0.15)] pb-[18px] last:border-b-0 last:pb-0">
+						<div class="flex justify-between gap-3 font-semibold">
+							<h3>{{ item.name }}</h3>
+							<span class="font-medium text-[color:var(--muted)]">{{ item.stack }}</span>
+						</div>
+						<ul class="m-0 pl-[18px] text-[color:var(--muted)]">
+							@for (bullet of item.bullets; track bullet) {
+							<li>{{ bullet }}</li>
+							}
+						</ul>
+					</article>
+					}
+				</section>
 				}
 			</div>
 		</div>
