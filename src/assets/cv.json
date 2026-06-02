@@ -29,7 +29,8 @@
       "stack": "Angular · .NET",
       "bullets": [
         "Built an API-driven mood tracker with localization support.",
-        "Implemented secure auth and analytics-ready data models."
+        "Implemented secure auth and analytics-ready data models.",
+        "Designed responsive UI with Angular Material components."
       ]
     },
     {
@@ -38,7 +39,8 @@
       "stack": "Flutter · Microservices",
       "bullets": [
         "Architected RabbitMQ-backed microservices for ordering flows.",
-        "Integrated Stripe payments and transactional email service."
+        "Integrated Stripe payments and transactional email service.",
+        "Implemented mobile app for customers and admin desktop dashboard."
       ]
     },
     {
