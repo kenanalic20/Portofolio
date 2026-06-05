@@ -38,8 +38,8 @@
       "name": "MilkMaster — Dairy Management",
       "stack": "Flutter · Microservices",
       "bullets": [
-        "Architected RabbitMQ-backed microservices for ordering flows.",
-        "Integrated Stripe payments and transactional email service.",
+        "Architected RabbitMQ-backed microservices for email notifications.",
+        "Integrated Stripe payments and order management.",
         "Implemented mobile app for customers and admin desktop dashboard."
       ]
     },
