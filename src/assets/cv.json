@@ -3,12 +3,13 @@
     {
       "id": "evocomedia-2024",
       "role": "Full-stack Developer",
-      "company": "Evocomedia (10 months)",
+      "company": "Evocomedia (1 year)",
       "year": "2024",
       "bullets": [
         "Built responsive web pages with modern HTML, Sass, and jQuery.",
         "Converted designs into custom WordPress themes and templates.",
-        "Worked with WordPress plugins like WooCommerce, WPML and Advanced Custom Fields"
+        "Worked with WordPress plugins like WooCommerce, WPML and Advanced Custom Fields.",
+        "Worked with Payload CMS, Astro, and Vue."
       ]
     },
     {
@@ -101,7 +102,11 @@
     "Flutter",
     "WordPress",
     "Firebase",
-    "Git"
+    "Git",
+    "Payload",
+    "Vue",
+    "Astro",
+    "Tailwind"
   ],
   "education": [
     {
