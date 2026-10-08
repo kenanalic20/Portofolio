@@ -1,0 +1,131 @@
+{
+  "experience": [
+    {
+      "id": "evocomedia-2024",
+      "role": "Full-stack programer",
+      "company": "Samostalni rad / rad na projektima (1 godina)",
+      "year": "2024",
+      "bullets": [
+        "Izrada responzivnih web stranica koristeći moderni HTML, Sass i jQuery.",
+        "Pretvaranje dizajna u prilagođene WordPress teme i tamplete.",
+        "Rad s WordPress dodacima kao što su WooCommerce, WPML i Advanced Custom Fields.",
+        "Rad s Payload CMS-om, Astr-om i Vue-om."
+      ]
+    },
+    {
+      "id": "fablab-2023",
+      "role": "Pripravnik",
+      "company": "FabLab (1 mjesec)",
+      "year": "2023",
+      "bullets": [
+        "Izrada UI komponenti i nadzornih ploča u HTML-u, CSS-u i JavaScriptu.",
+        "Integracija Firebase autentifikacije i kontrole pristupa."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "Moodie - Mood Tracking App",
+      "name": "Moodie - aplikacija za praćenje raspoloženja",
+      "stack": "Angular · .NET",
+      "bullets": [
+        "Izrada trackera raspoloženja zasnovanog na API-ju s podrškom za lokalizaciju.",
+        "Implementacija sigurne autentifikacije i modela podataka spremnih za analitiku.",
+        "Dizajn responzivnog interfejsa pomoću Angular Material komponenti."
+      ]
+    },
+    {
+      "id": "milkmaster",
+      "name": "MilkMaster — upravljanje mljekarom",
+      "stack": "Flutter · Microservices",
+      "bullets": [
+        "Projektovanje mikro servisa zasnovanih na RabbitMQ-u za obavijesti putem e-pošte.",
+        "Integracija Stripe plaćanja i upravljanja narudžbama.",
+        "Izrada mobilne aplikacije za korisnike i desktop nadzorne ploče za administratore."
+      ]
+    },
+    {
+      "id": ".Net-Project-Template",
+      "name": ".Net tampleta projekta",
+      "stack": ".NET · Docker",
+      "bullets": [
+        "Ponovno upotrebljiv .NET tampleta projekta s podrškom za Docker za brzi razvoj.",
+        "Sistem za upravljanje datotekama sa sigurnim pohranom metapodataka.",
+        "Integracija Stripe plaćanja i usluge transakcijske e-pošte."
+      ]
+    }
+  ],
+  "extraProjects": [
+    {
+      "id": "IgnisGuard",
+      "name": "IgnisGuard - inteligentno otkrivanje požara",
+      "stack": "Flutter · Firebase · IoT",
+      "bullets": [
+        "Aplikacija za otkrivanje požara u stvarnom vremenu koristeći Flutter i Firebase.",
+        "Pozadinski sistem s modelom mašinskog učenja za preciznije otkrivanje i manje lažnih alarma.",
+        "Mobilna nadzorna ploča za praćenje stanja požara i primanje upozorenja.",
+        "Sistem za snimanje slika i slanje obavijesti za trenutna upozorenja korisnicima.",
+        "Implementacija IoT senzora zasnovanih na ESP32 za precizno praćenje požara."
+      ]
+    },
+    {
+      "id": "How Long Can You Pew Pew - Game",
+      "name": "How Long Can You Pew Pew - igra",
+      "stack": "Unity · C#",
+      "bullets": [
+        "Beskonačna svemirska pucačina izrađena u Unityju uz C# skripte.",
+        "Implementacija responzivnog interfejsa i mehanika igre.",
+        "Dizajn više vrsta neprijatelja i pojačanja za zanimljivije igranje.",
+        "Osnovne mehanike uključuju kretanje igrača, pucanje i pojavljivanje neprijatelja."
+      ]
+    },
+    {
+      "id": "Real-time Fan Control System",
+      "name": "Sistem za upravljanje ventilatorom u stvarnom vremenu",
+      "stack": "ESP32 · C++",
+      "bullets": [
+        "Dizajn sistema za upravljanje ventilatorom u stvarnom vremenu koristeći ESP32 i C++.",
+        "Implementacija MQ-135 senzora za praćenje kvaliteta zraka.",
+        "Korištenje prekida za aktivaciju ventilatora na osnovu podataka senzora."
+      ]
+    }
+  ],
+  "skills": [
+    "C#",
+    "PHP",
+    ".NET",
+    "Angular",
+    "TypeScript",
+    "SQL",
+    "RabbitMQ",
+    "Docker",
+    "Flutter",
+    "WordPress",
+    "Firebase",
+    "Git",
+    "Payload",
+    "Vue",
+    "Astro",
+    "Tailwind"
+  ],
+  "education": [
+    {
+      "id": "fit-2026",
+      "school": "Fakultet informacijskih tehnologija (FIT)",
+      "degree": "Bachelor softverskog inženjerstva",
+      "year": "2026"
+    },
+    {
+      "id": "kfc-angular-2025",
+      "school": "Kulturni centar kralja Fahda",
+      "degree": "Kurs Angulara",
+      "year": "2025"
+    },
+    {
+      "id": "kfc-js-2023",
+      "school": "Kulturni centar kralja Fahda",
+      "degree": "Kurs JavaScripta",
+      "year": "2023"
+    }
+  ]
+}

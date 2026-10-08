@@ -11,20 +11,34 @@
 				</div>
 				<div>
 					<p class="mb-1.5 text-[0.95rem] uppercase tracking-[0.22em] text-[color:var(--muted)]">
-						Software Engineer
+						{{ text().softwareEngineer }}
 					</p>
 					<h1 class="mb-1.5 text-[2.4rem] uppercase tracking-[0.06em]">Kenan Alić</h1>
-					<p class="text-[1rem] text-[color:var(--muted)]">Full-stack developer</p>
+					<p class="text-[1rem] text-[color:var(--muted)]">{{ text().fullStackDeveloper }}</p>
 				</div>
 			</div>
 			<div class="text-right max-[980px]:text-left print:hidden">
+				<div class="mb-3 flex justify-end gap-2 max-[980px]:justify-start" role="group"
+					aria-label="Language">
+					<button type="button" [attr.aria-pressed]="language() === 'en'" (click)="setLanguage('en')"
+						class="rounded-full border border-[rgba(14,15,18,0.12)] px-3 py-1 text-sm transition"
+						[style.background-color]="language() === 'en' ? 'var(--accent)' : null"
+						[style.color]="language() === 'en' ? 'white' : null">
+						English
+					</button>
+					<button type="button" [attr.aria-pressed]="language() === 'bs'" (click)="setLanguage('bs')"
+						class="rounded-full border border-[rgba(14,15,18,0.12)] px-3 py-1 text-sm transition"
+						[style.background-color]="language() === 'bs' ? 'var(--accent)' : null"
+						[style.color]="language() === 'bs' ? 'white' : null">
+						Bosanski
+					</button>
+				</div>
 				<button
 					class="cursor-pointer rounded-full border-0 bg-[var(--accent)] px-[18px] py-[10px] font-semibold tracking-[0.02em] text-white shadow-[0_10px_24px_rgba(15,61,76,0.25)] transition hover:-translate-y-0.5"
 					type="button" (click)="downloadPdf()">
-					Download PDF
+					{{ text().downloadPdf }}
 				</button>
-				<p class="mt-2 text-[0.85rem] text-[color:var(--muted)]">For PNG, use your browser's full-page
-					screenshot.</p>
+				<p class="mt-2 text-[0.85rem] text-[color:var(--muted)]">{{ text().pngHint }}</p>
 			</div>
 		</header>
 
@@ -34,17 +48,17 @@
 					<section>
 						<h2
 							class="mb-3.5 border-b border-[rgba(14,15,18,0.12)] pb-1.5 text-[1.1rem] uppercase tracking-[0.14em]">
-							Contact
+							{{ text().contact }}
 						</h2>
 						<ul class="m-0 grid list-none gap-2.5 p-0 text-[0.95rem]">
 							<li><span
-									class="mb-0.5 block text-[0.8rem] uppercase tracking-[0.12em] text-[color:var(--muted)]">Address</span>Bugojno,
-								Bosnia and Herzegovina</li>
+									class="mb-0.5 block text-[0.8rem] uppercase tracking-[0.12em] text-[color:var(--muted)]">{{ text().address }}</span>Bugojno,
+								{{ text().country }}</li>
 							<li><span
-									class="mb-0.5 block text-[0.8rem] uppercase tracking-[0.12em] text-[color:var(--muted)]">Email</span>kenan.alic@edu.fit.ba
+									class="mb-0.5 block text-[0.8rem] uppercase tracking-[0.12em] text-[color:var(--muted)]">{{ text().email }}</span>kenan.alic@edu.fit.ba
 							</li>
 							<li><span
-									class="mb-0.5 block text-[0.8rem] uppercase tracking-[0.12em] text-[color:var(--muted)]">Phone</span>+387
+									class="mb-0.5 block text-[0.8rem] uppercase tracking-[0.12em] text-[color:var(--muted)]">{{ text().phone }}</span>+387
 								60 334 3703</li>
 							<li>
 								<span
@@ -61,7 +75,7 @@
 					<section>
 						<h2
 							class="mb-3.5 border-b border-[rgba(14,15,18,0.12)] pb-1.5 text-[1.1rem] uppercase tracking-[0.14em]">
-							Skills
+							{{ text().skills }}
 						</h2>
 						<div class="flex flex-wrap gap-2.5">
 							@for (skill of skills(); track skill) {
@@ -75,14 +89,14 @@
 					<section>
 						<h2
 							class="mb-3.5 border-b border-[rgba(14,15,18,0.12)] pb-1.5 text-[1.1rem] uppercase tracking-[0.14em]">
-							Languages
+							{{ text().languages }}
 						</h2>
 						<ul class="m-0 grid list-none gap-2.5 p-0 text-[0.95rem]">
 							<li><span
-									class="mb-0.5 block text-[0.8rem] uppercase tracking-[0.12em] text-[color:var(--muted)]">English</span>Professional
+									class="mb-0.5 block text-[0.8rem] uppercase tracking-[0.12em] text-[color:var(--muted)]">{{ text().english }}</span>{{ text().professional }}
 							</li>
 							<li><span
-									class="mb-0.5 block text-[0.8rem] uppercase tracking-[0.12em] text-[color:var(--muted)]">Bosnian</span>Native
+									class="mb-0.5 block text-[0.8rem] uppercase tracking-[0.12em] text-[color:var(--muted)]">{{ text().bosnian }}</span>{{ text().native }}
 							</li>
 						</ul>
 					</section>
@@ -94,7 +108,7 @@
 				<section>
 					<h2
 						class="mb-3.5 border-b border-[rgba(14,15,18,0.12)] pb-1.5 text-[1.1rem] uppercase tracking-[0.14em]">
-						Experience
+						{{ text().experience }}
 					</h2>
 					@for (item of experiences(); track item.id) {
 					<article
@@ -115,7 +129,7 @@
 				<section>
 					<h2
 						class="mb-3.5 border-b border-[rgba(14,15,18,0.12)] pb-1.5 text-[1.1rem] uppercase tracking-[0.14em]">
-						Education
+						{{ text().education }}
 					</h2>
 					@for (item of education(); track item.id) {
 					<article
@@ -131,7 +145,7 @@
 				<section>
 					<h2
 						class="mb-3.5 border-b border-[rgba(14,15,18,0.12)] pb-1.5 text-[1.1rem] uppercase tracking-[0.14em]">
-						Projects
+						{{ text().projects }}
 					</h2>
 					@for (item of projects(); track item.id) {
 					<article
@@ -151,7 +165,7 @@
 						<input id="show-more-projects" type="checkbox" class="h-4 w-4 accent-[var(--accent)]"
 							[checked]="showMoreProjects()" (change)="showMoreProjects.set(!showMoreProjects())" />
 						<label for="show-more-projects" class="select-none text-[color:var(--muted)]">
-							Show more projects
+							{{ text().showMoreProjects }}
 						</label>
 					</div>
 				</section>
@@ -160,7 +174,7 @@
 				<section>
 					<h2
 						class="mb-3.5 border-b border-[rgba(14,15,18,0.12)] pb-1.5 text-[1.1rem] uppercase tracking-[0.14em]">
-						Extra Projects
+						{{ text().extraProjects }}
 					</h2>
 					@for (item of extraProjects(); track item.id) {
 					<article
