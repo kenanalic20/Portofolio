@@ -3,7 +3,7 @@
     {
       "id": "evocomedia-2024",
       "role": "Full-stack Developer",
-      "company": "Evocomedia (1 year)",
+      "company": "Freelance / Project-Based",
       "year": "2024",
       "bullets": [
         "Built responsive web pages with modern HTML, Sass, and jQuery.",
@@ -68,7 +68,7 @@
         "Implemented ESP32-based IoT sensors for accurate fire monitoring."
       ]
     },
-     {
+    {
       "id": "How Long Can You Pew Pew - Game",
       "name": "How Long Can You Pew Pew - Game",
       "stack": "Unity · C#",
